@@ -1,0 +1,15 @@
+.vert-center {
+	justify-content: center;
+	align-items: center;
+}
+.vert-center p {
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
