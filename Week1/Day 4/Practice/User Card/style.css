@@ -1,43 +1,55 @@
-body{
-display: flex;
+* {
+    margin:0;
+    padding:0;
 }
-h1,h3{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}.container {
-    width: 600px;
-    height: 400px;
+body{
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-container {
+    width: 700px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whitebar h1, 
+.whitebar h2,
+.whitebar h3,
+.whitebar p {
+    margin: 20px 0px;
+}
+.container {
+    width: 100%;
+    background-color: #fff;
     border-color: dimgray;
     border-style:solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;}
+
+.image1{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
+    
 .bluebar{
-        width: 600px;
-        height: 100px;
-        margin: 0 auto;
        background-color: darkcyan;
+       height: 125px;
+       margin-bottom: 70px;
 }
 .whitebar{
-        width: 600px;
-        height: 500px;
-        margin: 40px;}
+    padding: 20px;
+}
 .image{
     width: 20px;
     height: 22px;
 }
-.image1{
-    width: 99px;
-    height: 99px;
-    border: 10px;
-    border-color:rgb(155, 19, 19);
-}
-.round{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background: rgb(0, 0, 0);
-    border-color: dimgray;
-    border-style:solid;
-    position: relative;
-    left:430px;
-    top: 45px;
+a {
+    color: #3a81e6;
 }
