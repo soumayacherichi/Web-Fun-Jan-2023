@@ -1,11 +1,11 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aliceblue;
+.top {
+    background-color: #333333;
 }
 .nav{
-    width: 1000px;
-    height: 60px;
-    background-color: rgba(70, 66, 66, 0.863);
+    width: 1080px;
+    margin: 0px auto;
+    height: 70px;
+    color:#ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,7 +15,7 @@ body{
  
 }
 .nav-links {
-    width: 500px;
+    width: 540px;
     height: 60px;
     display: flex;
     align-items: center;
