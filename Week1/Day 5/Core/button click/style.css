@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "cursive";
+    background-color: #f3f3f3;
+}
+.top {
+    background-color: #c7bdbd;
+    width:1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 1000px;
+    margin: 0px auto;
+    height: 60px;
+    color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    margin-left: 20px;
+}
+.nav-links {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.btn {
+        height: 35px;
+        width: 100px;
+        background-color: #3048d1;
+        color: #ffffff;
+        border: 2px black solid;
+        font-size: 15px;
+        box-shadow: 5px 5px #000000;
+    }
+input{
+    width: 250px;
+    height: 10px;
+    border: #000000 2px solid;
+    padding: 10px;
+}
+/* deuxième partie  */
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f3f3f3;
+    font-family: 'cursive';
+}
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    background-color: #fff;
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-right:70px;
+    padding: 30px;
+}
+.btn1 {
+    height: 35px;
+    width: 100px;
+    background-color: #e7b323;
+    color: #ffffff;
+    border: 2px black solid;
+    font-size: 15px;
+    box-shadow: 5px 5px #000000;
+    }
+.image1{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}    
+.bluebar{
+    width: 100%;
+    background-color: darkcyan;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.whitebar{
+    padding: 20px;
+    display: contents;
+}
+.image{
+    width: 20px;
+    height: 22px;
+}
+a {
+    color: #3a81e6;
+}
+.row {
+    display: flex;
+    
+}
+.col-2 {
+    flex:2;
+}
+.col{
+    margin-left: 30px;
+    flex:2;
+}
+.container2{
+margin-top: 30px;
+margin-left: 70px;
+padding: 30px;
+border: 3px solid rgb(0, 0, 0);
+width: 350px;
+background-color: #fff;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-color: dimgray;
+    border-style:solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+ .header{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding:20px;
+ }
+ .card-body{
+        padding: 20px;
+    } 
+.dates{color: grey;
+    font-family: 'cursive';}
+.connections {
+    background-color: #eee;
+    color: #333;
+}
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;}
+
+.image2 {
+        border-radius: 50%;
+        height: 48px;
+        margin-right: 10px;
+    }
+    .connections {
+        background-color: #eee;
+        color: #333;
+        font-size: 20px;
+        border-radius: 12px;
+        height: 24px;
+        padding: 0 10px;
+        margin-right: 10px;
+    }
+
+    .btn2 {
+        height: 35px;
+        width: 200px;
+        background-color: #8fdb48;
+        color: #ffffff;
+        border: 2px black solid;
+        font-size: 15px;
+        box-shadow: 5px 5px #000000;
+        }
